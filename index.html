@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>team card/ cpnt260-a2</title> 
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/main.css">
+ <link rel="stylesheet" href="style.css">
+
+
+     <style>
+
+        .container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+
+    }
+
+     .card { 
+     margin: 1em auto;
+     min-width: 20ch;
+     max-width:40ch;
+     max-height:70ch;
+     display: flex;
+     flex-direction: column;
+     background-color:hsla(0, 0%, 92%, 1);
+     box-shadow:5px 5px 5px 1px hsla(0, 0%, 46%, 0.37);
+    }
+
+            
+     img {
+        
+      width: 100%;
+     height: 28%;
+    }
+
+
+     .info {
+     margin:0  auto ;
+    }
+
+     h2{
+     margin: 0;
+     text-align: center;  
+     font-size: 32px;
+     font-family: 'Karla', sans-serif;
+    }
+
+
+     p{  
+     margin:auto;
+     padding:0.5em 1.5em 1em 1em;
+     text-align: center;
+     font-family: 'Rubik', sans-serif;
+     font-size:18px;
+    }
+
+
+
+   
+     *body{
+     box-sizing:border-box;
+     BACKGROUND-POSITION:CENTER;
+     @media (min-aspect-ratio: 4/7);
+     }
+    
+
+     .circle {
+     display: flex;
+     width: 14vh;
+     height: 14vh;
+     border: 6px solid hsla(0, 0%, 92%, 1 );
+     border-radius: 50%;
+     background-image: url("https://raw.githubusercontent.com/sait-wbdv/assessments/master/cpnt260/assignment-2/images/jane-doe.jpg");
+     background-size: cover;
+     background-position: center;
+     margin: -4em  auto  auto  auto;
+    }
+
+     footer{
+     display: flex;
+     flex: auto;
+     border-top: 1px solid hsla(0, 0%, 40%, 0.58); ;
+     margin: 0 0 0 0;
+     justify-items:center;
+    align-content:center;
+    justify-content: space-between;
+    }
+
+     .fab{
+     display:flex;
+     color:rgb(11, 38, 129);
+     margin:0.6em 0 0.6em 0.6em;
+     justify-content: space-between;
+     TEXT-DECORATION:none;
+    
+      
+    }
+  
+    </style>
+</head>
+    <body>
+        
+       <main>
+           <section class="container">
+    
+           <figure class="card">
+
+              <img src="https://raw.githubusercontent.com/sait-wbdv/assessments/master/cpnt260/assignment-2/images/river.jpg" alt=" river">
+
+              <div class="circle">  </div>
+    
+        
+                <figcaption class="info">
+          
+                    <h2> Jane Doe</h2>
+               
+                    <p>Eget mi proin sed libero enim sed faucibus turpis in eu mi bibendum neque egestas congue quisque egestas diam in arcu cursus euismod quis viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat sed.
+                    </p>
+      
+                    <footer>
+       
+                          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy +KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+
+
+                          <div class="fab">   
+    
+                            <a href="https://twitter.io/"><i class="fab fa-twitter" style="font-size: 40px;"></i></a> 
+                            <a href="https://github.com"><i class="fab fa-github" style="font-size: 40px;"></i></a>
+                            <a href="https://facebook.com/"><i class="fab fa-facebook" style="font-size: 40px;"></i></a>  
+                            <a href="https://codepen.io/"><i class="fab fa-instagram" style="font-size: 40px;"></i></a>
+                           </div>
+                            
+        
+                    </footer>
+               </figcaption>
+           </figure> 
+           </section>   
+        </main>
+      </BODY>
+
+</html>
